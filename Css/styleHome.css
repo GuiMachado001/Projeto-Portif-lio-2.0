@@ -1,6 +1,6 @@
 #home{
     width: 100%;
-    height: 100vh;
+    height: 120vh;
     margin-top: 70px;
     border: 1px solid red;
 
@@ -40,11 +40,10 @@
 
 @media (max-width: 600px) {
   #home{
-    height: 110vh;
+    height: 100vh;
   }
   .containerPg1{
     flex-direction: column;
-    height: 95%;
   }
 }
 

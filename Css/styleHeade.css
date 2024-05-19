@@ -1,0 +1,46 @@
+html{
+    scroll-behavior: smooth;
+}
+#toolBar{
+    width: 100%;
+    height: 60px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+
+    border-bottom: 2px solid #9849ff;
+    box-shadow: 0 0 10px #9849ff;
+    z-index: 9999;
+    position: fixed;
+    background-color: #18181b;
+}
+.containerTool{
+    width: 85%;
+    height: 60px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    color: #fff;
+    font-size: 15px;
+    border: 1px solid yellow;
+}
+.titleSite{
+    border: 1px solid blue;
+}
+.tools{
+    width: 400px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid red;
+}
+
+.tools > span{
+    cursor: pointer;
+}

@@ -1,0 +1,12 @@
+*{
+    font-family: monospace;
+    
+}
+body{
+    margin: 0; 
+    width: 100%;
+    height: 100%;
+    background-color: #18181bfc;
+    overflow-y: scroll; 
+    overflow-x: hidden;
+}

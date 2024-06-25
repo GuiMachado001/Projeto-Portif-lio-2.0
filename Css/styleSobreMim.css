@@ -108,75 +108,7 @@
     color: #ffffffa8;
 }
 
-@media (max-width: 1300px) {
-    #sobreMim{
-        height: 200vh;
-    }
 
-    .containerAvatar2{
-        width: 150px;
-        height: 00px;
-        border-radius: 10%;
-    }
-    .containerBox{
-        display: flex;
-        width: 100%;
-        height: 50%;
-    }
-    .confImg{
-    height: 200px;
-        
-    }
-    .containerDescSobre{
-        width: 70%;
-    }
-    .containerPg2{
-        /* display: block; */
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-}
-  
-
-@media (max-width: 650px) {
-    #sobreMim{
-        height: 250vh;
-
-    }
-    .containerAvatar2{
-        width: 100%;
-        height: 200px;
-        border: 0px;
-        
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .containerBox{
-        display: flex;
-        width: 100%;
-        height: 50%;
-    }
-    .confImg{
-    width: 150px;
-    height: 200px;
-    border-radius: 10%;
-    border: 1px solid red;
-    }
-    .containerDescSobre{
-        width: 100%;
-        height: 65vh;
-        margin-left: 0;
-    }
-    .containerPg2{
-        display: block;
-    }
-    .Name{
-        height: 120px;
-    }
-    
-}
 
 
 
@@ -212,11 +144,50 @@
 
 
 
+@media (max-width: 1303px) {
+    #sobreMim{
+        height: 90vh;
+    }
+
+    .containerAvatar2{
+        width: 150px;
+        height: 00px;
+        border-radius: 10%;
+        border: 1px solid red;
+    }
+    .containerBox{
+        display: flex;
+        width: 100%;
+        height: 100%;
+        border: 1px solid blue;
+
+    }
+    .confImg{
+    height: 200px;
+    border: 1px solid yellow;
+
+    }
+    .containerDescSobre{
+        width: 70%;
+        border: 1px solid purple;
+
+    }
+    .containerPg2{
+        /* display: block; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid green;
+    }
+}
+  
+
+
 @media (max-width: 750px) {
     .containerBoxIcons{
         width: 100%;
         height: 100px;
-
+        
     }
     
 }
@@ -234,6 +205,56 @@
         height: 80%;
     }
 }
+
+
+
+@media (max-width: 681px) {
+    #sobreMim{
+        height: 130vh;
+    }
+    .containerAvatar2{
+        width: 100%;
+        height: 200px;
+    }
+    .containerBox{
+        display: flex;
+        width: 100%;
+        height: 50%;
+    }
+    .confImg{
+        width: 150px;
+        height: 150px;
+    }
+    .containerDescSobre{
+        width: 100%;
+        height: 65vh;
+        margin-top: 20px;
+        
+    }
+    .containerPg2{
+        height: 100%;
+    }
+    .Name{
+        height: 120px;
+    }
+    .containerBoxIcons{
+        margin-top: 100px;
+    }
+    
+}
+
+@media (max-width: 552px){
+
+    .containerPg2{
+        height: 150vh;
+    }
+}
+@media (max-width: 446px){
+    .containerPg2{
+        height: 180vh;
+    }
+}
+
 @media (max-width: 250px) {
     .containerBoxIcons{
         width: 100%;

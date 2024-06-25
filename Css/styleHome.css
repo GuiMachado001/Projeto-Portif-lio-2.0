@@ -7,7 +7,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 .containerPg1{
     width: 85%;
@@ -255,7 +254,9 @@ to{
     .containerImgAvatar1{
       width: 350px;
       height: 350px;
+      }
     }
+
   @media (max-width: 423px){
     .containerImgAvatar1{
       width: 300px;

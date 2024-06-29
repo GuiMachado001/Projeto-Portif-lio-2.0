@@ -44,3 +44,20 @@ html{
 .tools > span{
     cursor: pointer;
 }
+
+.tools::after{
+    content: " ";
+    width: 0;
+    height: 3px;
+    background-color: #9849ff;
+    position: absolute;
+    top: 15px;
+    bottom: 0;
+    left: 0;
+    transition: 0.6s ease-in-out;
+
+}
+
+.tools:hover::after{
+    width: 100%;
+}

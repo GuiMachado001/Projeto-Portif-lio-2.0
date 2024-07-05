@@ -45,7 +45,7 @@ html{
     cursor: pointer;
 }
 
-.tools::after{
+.tool::after{
     content: " ";
     width: 0;
     height: 3px;
@@ -58,6 +58,14 @@ html{
 
 }
 
-.tools:hover::after{
+.tool:hover::after{
     width: 100%;
+}
+
+.tool{
+    cursor: pointer;
+    position: relative;
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
 }

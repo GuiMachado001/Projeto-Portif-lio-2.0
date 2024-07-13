@@ -1,4 +1,11 @@
-.Projetos{
-    width: 100%;
-    height: 100vh;
+#Projetos{
+    display: flex;
+    justify-content: center;
+}
+.containerPg4{
+    display: flex;
+    position: relative;
+    
+    flex-direction: column;
+    width: 80%;
 }

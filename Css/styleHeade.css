@@ -27,11 +27,8 @@ html{
     
     color: #fff;
     font-size: 15px;
-    border: 1px solid yellow;
 }
-.titleSite{
-    border: 1px solid blue;
-}
+
 .tools{
     width: 400px;
     height: 60px;

@@ -2,7 +2,6 @@
     width: 100%;
     height: 120vh;
     margin-top: 70px;
-    border: 1px solid red;
 
     display: flex;
     align-items: center;
@@ -11,7 +10,6 @@
 .containerPg1{
     width: 85%;
     height: 85%;
-    border: 1px solid blue;
 
     display: flex;
     align-items: center;
@@ -33,7 +31,6 @@
 .descTituloBody{
   width: 65%;
   height: 160px;
-  border: 1px solid red;
 }
 
 
@@ -167,9 +164,6 @@ to{
     color: #9849ff;
     width: 50%; 
   }
-
-  
- 
   
   
   
@@ -263,3 +257,5 @@ to{
       height: 300px;
     }
 }
+
+

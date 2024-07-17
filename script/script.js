@@ -24,6 +24,64 @@ window.addEventListener('DOMContentLoaded', (event) => {
         reset: false
     });
 
+    sr.reveal('.containerCard1', {
+        distance: '3000px',
+        origin: 'left',
+        duration: 1000,
+        delay: 100,
+        reset: false
+    });
+sr.reveal('.containerCard2', {
+    distance: '3000px',
+    origin: 'left',
+    duration: 1000,
+    delay: 300,
+    reset: false
+});
+sr.reveal('.containerCard3', {
+    distance: '3000px',
+    origin: 'left',
+    duration: 1000,
+    delay: 500,
+    reset: false
+});
+sr.reveal('.containerCard4', {
+    distance: '3000px',
+    origin: 'left',
+    duration: 1000,
+    delay: 700,
+    reset: false
+});
+
+
+sr.reveal('.containerCard5', {
+    distance: '3000px',
+    origin: 'right',
+    duration: 1000,
+    delay: 100,
+    reset: false
+});
+sr.reveal('.containerCard6', {
+    distance: '3000px',
+    origin: 'right',
+    duration: 1000,
+    delay: 300,
+    reset: false
+});
+sr.reveal('.containerCard7', {
+    distance: '3000px',
+    origin: 'right',
+    duration: 1000,
+    delay: 500,
+    reset: false
+});
+sr.reveal('.containerCard8', {
+    distance: '3000px',
+    origin: 'right',
+    duration: 1000,
+    delay: 700,
+    reset: false
+});
 });
 
 

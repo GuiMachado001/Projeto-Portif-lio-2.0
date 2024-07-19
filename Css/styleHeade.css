@@ -71,36 +71,32 @@ html{
 
 
 
-#toolBarMedia{
+#toolBarMedia {
     width: 100%;
     height: 60px;
-
     display: none;
     top: 0;
     left: 0;
-
     border-bottom: 2px solid #9849ff;
     box-shadow: 0 0 10px #9849ff;
     z-index: 9999;
     position: fixed;
     background-color: #18181b;
 }
-.titleSiteMedia{
+
+.titleSiteMedia {
     display: none;
+    border: 1px solid blue;
 }
 
-
-@media (max-width: 632px){
-    #toolBar, .tools, .containerTool{
-        display: none;
-    }
-    #toolBarMedia{
+@media (max-width: 632px) {
+    #toolBarMedia {
         display: flex;
         border: 1px solid red;
         align-items: center;
         justify-content: center;
     }
-    .titleSiteMedia{
+    .titleSiteMedia {
         display: flex;
         font-size: 15px;
         color: white;

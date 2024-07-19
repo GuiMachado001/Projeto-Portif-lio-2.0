@@ -35,7 +35,6 @@ html{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid red;
 }
 
 .tools > span{
@@ -72,3 +71,11 @@ html{
     color: #fff;
 }
 
+@media (max-width: 700px) {
+    .tools{
+        display: none;
+    }
+    .toolBar{
+        width: 100px;
+    }
+}

@@ -1,9 +1,8 @@
 window.addEventListener('DOMContentLoaded', (event) => {
-    const sr = ScrollReveal({ reset: true });
+    const sr = ScrollReveal({ reset: true }, {mobile: true,});
 
     sr.reveal('#home', { duration: 2000 });
     
-
     sr.reveal('.containerBox', {
         rotate: { x: 0, y: 80, z: 0 },
         duration: 3000,

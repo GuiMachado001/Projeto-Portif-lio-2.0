@@ -69,14 +69,13 @@ html {
     text-decoration: none;
 }
 
-/* Estilos para telas menores (media query) */
-@media (max-width: 632px) {
-    /* Esconde o header padrão */
+
+@media (max-width: 767px) {
     #toolBar, .tools, .containerTool {
         display: none;
     }
 
-    /* Mostra o header para telas menores */
+
     #toolBarMedia {
         display: flex;
         align-items: center;

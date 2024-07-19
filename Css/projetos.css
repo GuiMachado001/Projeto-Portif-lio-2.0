@@ -17,18 +17,20 @@
     
 }
 .containerCards > .aaa, .containerCard1, .containerCard2,
-.containerCard3, .containerCard4{
+.containerCard3, .containerCard4, .containerCard5, .containerCard6{
     margin-top: 2rem;
+    margin-left: 5%;
 
 }
 
 .containerCardsGeral{
     width: 100%;
-    height: 450px;
+    height: 900px;
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
-
+    border: 1px solid red;
 }
 
 .containerCardsGeral2{

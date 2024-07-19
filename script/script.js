@@ -7,13 +7,15 @@ window.addEventListener('DOMContentLoaded', (event) => {
     sr.reveal('.containerBox', {
         rotate: { x: 0, y: 80, z: 0 },
         duration: 3000,
-        reset: false
+        reset: false,
+        mobile: true,
     });
 
     sr.reveal('.containerBoxIcons', {
         rotate: { x: 100, y: 110, z: 0 },
         duration: 1000,
-        reset: false
+        reset: false,
+        mobile: true,
     });
 
     sr.reveal('.meusCursos', {
@@ -21,7 +23,8 @@ window.addEventListener('DOMContentLoaded', (event) => {
         origin: 'left',
         duration: 1000,
         delay: 100,
-        reset: false
+        reset: false,
+        mobile: true,
     });
 
     sr.reveal('.containerCard1', {
@@ -29,28 +32,32 @@ window.addEventListener('DOMContentLoaded', (event) => {
         origin: 'left',
         duration: 1000,
         delay: 100,
-        reset: false
+        reset: false,
+        mobile: true,
     });
 sr.reveal('.containerCard2', {
     distance: '3000px',
     origin: 'left',
     duration: 1000,
     delay: 300,
-    reset: false
+    reset: false,
+    mobile: true,
 });
 sr.reveal('.containerCard3', {
     distance: '3000px',
     origin: 'left',
     duration: 1000,
     delay: 500,
-    reset: false
+    reset: false,
+    mobile: true,
 });
 sr.reveal('.containerCard4', {
     distance: '3000px',
     origin: 'left',
     duration: 1000,
     delay: 700,
-    reset: false
+    reset: false,
+    mobile: true,
 });
 
 
@@ -59,28 +66,32 @@ sr.reveal('.containerCard5', {
     origin: 'right',
     duration: 1000,
     delay: 100,
-    reset: false
+    reset: false,
+    mobile: true,
 });
 sr.reveal('.containerCard6', {
     distance: '3000px',
     origin: 'right',
     duration: 1000,
     delay: 300,
-    reset: false
+    reset: false,
+    mobile: true,
 });
 sr.reveal('.containerCard7', {
     distance: '3000px',
     origin: 'right',
     duration: 1000,
     delay: 500,
-    reset: false
+    reset: false,
+    mobile: true,
 });
 sr.reveal('.containerCard8', {
     distance: '3000px',
     origin: 'right',
     duration: 1000,
     delay: 700,
-    reset: false
+    reset: false,
+    mobile: true,
 });
 });
 

@@ -69,12 +69,10 @@ html {
     text-decoration: none;
 }
 
-
 @media (max-width: 767px) {
     #toolBar, .tools, .containerTool {
         display: none;
     }
-
 
     #toolBarMedia {
         display: flex;

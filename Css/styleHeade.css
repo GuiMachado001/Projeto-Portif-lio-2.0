@@ -89,7 +89,11 @@ html{
     border: 1px solid blue;
 }
 
-@media (max-width: 632px) {
+
+@media (max-width: 632px){
+    #toolBar, .tools, .containerTool{
+        display: none;
+    }
     #toolBarMedia {
         display: flex;
         border: 1px solid red;

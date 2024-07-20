@@ -71,26 +71,34 @@ html{
     color: #fff;
 }
 .toolBarMedia{
-    width: 100%;
-    height: 60px;
-
     display: none;
-    align-items: center;
-    justify-content: center;
-    top: 0;
-    left: 0;
-
-    border-bottom: 2px solid #9849ff;
-    box-shadow: 0 0 10px #9849ff;
-    z-index: 9999;
-    position: fixed;
-    background-color: #18181b;
+}
+.titleSiteMedia{
+    display: none;
+    font-size: 15px;
+    color: #fff;
 }
 @media (max-width: 700px) {
     #toolBar{
         display: none;
     }
     #toolBarMedia{
+        width: 100%;
+        height: 60px;
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 0;
+        left: 0;
+    
+        border-bottom: 2px solid #9849ff;
+        box-shadow: 0 0 10px #9849ff;
+        z-index: 9999;
+        position: fixed;
+        background-color: #18181b;
+    }
+    .titleSiteMedia{
         display: flex;
     }
 }

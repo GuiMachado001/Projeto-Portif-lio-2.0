@@ -105,9 +105,9 @@ sr.reveal('.containerCard8', {
 
 
 const initTypingAnimation = () => {
-    const titleApresentação = document.querySelector('.titleApresentação h1')
-    const span = document.querySelector('.titleApresentação span')
-    const paragraph = document.querySelector('.titleApresentação p')
+    const titleApresentacao = document.querySelector('.titleApresentacao h1')
+    const span = document.querySelector('.titleApresentacao span')
+    const paragraph = document.querySelector('.titleApresentacao p')
 
     const typingAnimation = (element, text, delay) => {
         setTimeout(() => {
@@ -122,7 +122,7 @@ const initTypingAnimation = () => {
     }
 
     // Inicia a animação para cada elemento com seu respectivo texto e atraso
-    typingAnimation(titleApresentação, 'Olá, eu sou o ', 0)
+    typingAnimation(titleApresentacao, 'Olá, eu sou o ', 0)
     typingAnimation(span, 'Guilherme Machado', 1600)
     typingAnimation(paragraph, 'Desenvolvedor Front-End', 3700)
 }

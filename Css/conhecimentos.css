@@ -100,19 +100,21 @@
     border-radius: 5px;
 }
 
-@media (max-width: 813px){
+@media (max-width: 813px) {
+    .containerPg3 {
+        width: 100%;
+    }
 
-.containerPg3{
-    width: 100%;
-}
-.section-border{
-    display: none;
-}
-.curso{
-    line-height: 0%;
-}
-.meusCursos{
-    display: block;
-    height: 150px;
-}
+    .section-border {
+        display: none;
+    }
+
+    .curso {
+        line-height: 0;
+    }
+
+    .meusCursos {
+        display: block;
+        height: 150px;
+    }
 }

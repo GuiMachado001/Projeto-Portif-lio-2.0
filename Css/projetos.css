@@ -1,175 +1,178 @@
-#Projetos{
+#Projetos {
     display: flex;
     justify-content: center;
     margin-top: 30px;
 }
-.containerPg4{
+
+.containerPg4 {
     display: flex;
     align-items: center;
-  
     flex-direction: column;
     width: 80%;
 }
-.containerCards{
 
+.containerCards {
     display: flex;
     justify-content: center;
-    
+    flex-wrap: wrap; 
 }
+
 .containerCards > .aaa, .containerCard1, .containerCard2,
-.containerCard3, .containerCard4, .containerCard5, .containerCard6{
+.containerCard3, .containerCard4, .containerCard5, .containerCard6 {
     margin-top: 2rem;
     margin-left: 5%;
-
 }
 
-.containerCardsGeral{
+.containerCardsGeral {
     width: 100%;
-    height: 900px;
+    height: auto; 
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    border: 1px solid red;
+    border: 1px solid red; 
 }
 
-.titleConhec{
+.titleConhec {
     width: 100%;
     height: 10vh;
-
 }
-.titleConhec > h1{
+
+.titleConhec > h1 {
     color: white;
 }
-.flipCard{
+
+.flipCard {
     cursor: pointer;
-
     border-radius: 30px;
-
     width: 300px;
     height: 400px;
-
     display: flex;
     align-items: center;
     justify-content: center;
-
     perspective: 1000px;
 }
-.containerInfo{
+
+.containerInfo {
     width: 100%;
     height: 100%;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
-.flipCard:hover .flipCardInner{
+
+.flipCard:hover .flipCardInner {
     transform: rotateY(-180deg);
 }
 
-.flipCard .flipCardBack{
+.flipCard .flipCardBack {
     transform: rotateY(-180deg);
 }
-.flipCardInner{
+
+.flipCardInner {
     border-radius: 50px;
-
     width: 300px;
     height: 400px;
-
     background-color: black;
     border: 2px solid white;
-
     perspective: 1000px;
-
     position: relative;
     transition: transform 1s;
     transform-style: preserve-3d;
 }
-.flipCardBack, .flipCardFront{
+
+.flipCardBack, .flipCardFront {
     position: absolute;
     backface-visibility: hidden;
     width: 100%;
     height: 100%;
     color: white;
 }
-.flipCardImg{
+
+.flipCardImg {
     width: 100%;
     height: 100%;
-
     object-fit: cover;
     border-radius: 30px;
 }
-.nameProjeto{
+
+.nameProjeto {
     width: 250px;
     height: 150px;
     margin-top: 2rem;
-
     border: 2px solid white;
     border-radius: 20px;
-
-    padding: 001px;
-
+    padding: 0.5rem;
     color: #fff;
 }
-.containerImgProjeto{
+
+.containerImgProjeto {
     margin-top: 2rem;
     width: 250px;
     height: 160px;
 }
-.containerImgProjeto img{
+
+.containerImgProjeto img {
     width: 100%;
     height: 100%;
 }
-.containerDescBack{
+
+.containerDescBack {
     width: 100%;
     height: 75%;
-
     padding-top: 2rem;
-
 }
-.iconProjeto{
+
+.iconProjeto {
     width: 95%;
     height: 15%;
-
     display: flex;
     justify-content: center;
     align-items: center;
-
     padding-left: 15px;
 }
-.nameProjeto > h1, h3{
+
+.nameProjeto > h1, h3 {
     margin-left: 10px;
 }
-.containerCards{
-    display: flex;
-    justify-content: center;
-    
-}
-.containerCards > .aaa, .containerCard1, .containerCard2,
-.containerCard3, .containerCard4, .containerCard5,.containerCard6{
-    margin-top: 2rem;
-}
 
-
-@media (max-width: 1492px){
-    .containerCardsGeral{
-        height: auto; 
-        flex-direction: column; 
-    }
-}
-
-@media (max-width: 750px){
-    .containerCardsGeral{
-        height: auto; 
+/* Media Queries */
+@media (max-width: 1492px) {
+    .containerCardsGeral {
+        height: auto;
         flex-direction: column;
+        align-items: center;
     }
 
     .containerCards > .aaa, .containerCard1, .containerCard2,
-    .containerCard3, .containerCard4, .containerCard5, .containerCard6{
-        margin-left: 0;  
-        margin-top: 1rem;
+    .containerCard3, .containerCard4, .containerCard5, .containerCard6 {
+        margin-left: 2%; 
+    }
+}
+
+@media (max-width: 1024px) {
+    .flipCard {
+        width: 250px;
+        height: 350px;
+    }
+}
+
+@media (max-width: 750px) {
+    .containerCardsGeral {
+        height: auto;
+        flex-direction: column;
+        align-items: center;
     }
 
-    .flipCard{
+    .containerCards > .aaa, .containerCard1, .containerCard2,
+    .containerCard3, .containerCard4, .containerCard5, .containerCard6 {
+        margin-left: 0;
+        margin-top: 1rem;
+        width: 100%;
+        text-align: center; 
+    }
+
+    .flipCard {
         width: 200px;
         height: 300px;
     }

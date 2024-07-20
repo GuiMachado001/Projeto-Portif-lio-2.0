@@ -33,19 +33,6 @@
     border: 1px solid red;
 }
 
-.containerCardsGeral2{
-    width: 100%;
-    height: 450px;
-
-    
-    margin-top: 2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-
 .titleConhec{
     width: 100%;
     height: 10vh;
@@ -166,6 +153,7 @@
 @media (max-width: 1492px){
     .containerCardsGeral{
         height: 900px;
+        justify-content: center;
     }
 }
 @media (max-width: 750px){

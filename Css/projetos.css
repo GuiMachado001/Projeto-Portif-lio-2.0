@@ -1,186 +1,176 @@
-#Projetos {
+#Projetos{
     display: flex;
     justify-content: center;
     margin-top: 30px;
 }
-
-.containerPg4 {
+.containerPg4{
     display: flex;
     align-items: center;
+  
     flex-direction: column;
     width: 80%;
 }
+.containerCards{
 
-.containerCards {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap; /* Permite que os cards se movam para a linha seguinte se necessário */
+    
 }
-
 .containerCards > .aaa, .containerCard1, .containerCard2,
-.containerCard3, .containerCard4, .containerCard5, .containerCard6 {
+.containerCard3, .containerCard4, .containerCard5, .containerCard6{
     margin-top: 2rem;
-    margin-left: 1rem; /* Ajustado para garantir que os cards não saiam da tela */
-    width: calc(33.333% - 2rem); /* Ajusta para 3 cards por linha com espaçamento */
-    box-sizing: border-box; /* Inclui padding e border no cálculo da largura */
+    margin-left: 5%;
+
 }
 
-.containerCardsGeral {
+.containerCardsGeral{
     width: 100%;
-    height: auto; /* Ajuste dinâmico da altura */
+    height: 900px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    border: 1px solid red; /* Remova se não for necessário para o design */
+    border: 1px solid red;
 }
 
-.titleConhec {
+.containerCardsGeral2{
     width: 100%;
-    height: auto; /* Ajustado para que o título se ajuste ao conteúdo */
-    margin-bottom: 1rem; /* Espaço abaixo do título */
+    height: 450px;
+
+    
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
-.titleConhec > h1 {
+.titleConhec{
+    width: 100%;
+    height: 10vh;
+
+}
+.titleConhec > h1{
     color: white;
-    text-align: center; /* Centralizar o texto */
 }
-
-.flipCard {
+.flipCard{
     cursor: pointer;
+
     border-radius: 30px;
+
     width: 300px;
     height: 400px;
+
     display: flex;
     align-items: center;
     justify-content: center;
-    perspective: 1000px;
-    margin: 0.5rem; /* Ajuste de margem para não sair da tela */
-}
 
-.containerInfo {
+    perspective: 1000px;
+}
+.containerInfo{
     width: 100%;
     height: 100%;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
-
-.flipCard:hover .flipCardInner {
+.flipCard:hover .flipCardInner{
     transform: rotateY(-180deg);
 }
 
-.flipCard .flipCardBack {
+.flipCard .flipCardBack{
     transform: rotateY(-180deg);
 }
-
-.flipCardInner {
+.flipCardInner{
     border-radius: 50px;
-    width: 100%;
-    height: 100%;
+
+    width: 300px;
+    height: 400px;
+
     background-color: black;
     border: 2px solid white;
+
     perspective: 1000px;
+
     position: relative;
     transition: transform 1s;
     transform-style: preserve-3d;
 }
-
-.flipCardBack, .flipCardFront {
+.flipCardBack, .flipCardFront{
     position: absolute;
     backface-visibility: hidden;
     width: 100%;
     height: 100%;
     color: white;
 }
-
-.flipCardImg {
+.flipCardImg{
     width: 100%;
     height: 100%;
+
     object-fit: cover;
     border-radius: 30px;
 }
+.nameProjeto{
+    width: 250px;
+    height: 150px;
+    margin-top: 2rem;
 
-.nameProjeto {
-    width: 100%;
-    height: auto; /* Ajusta altura dinamicamente */
-    margin-top: 1rem;
     border: 2px solid white;
     border-radius: 20px;
-    padding: 0.5rem; /* Corrigido para um valor mais visível */
+
+    padding: 001px;
+
     color: #fff;
-    text-align: center; /* Centralizar o texto */
 }
-
-.containerImgProjeto {
-    width: 100%;
-    height: auto; /* Ajustar altura dinamicamente */
+.containerImgProjeto{
+    margin-top: 2rem;
+    width: 250px;
+    height: 160px;
 }
-
-.containerImgProjeto img {
+.containerImgProjeto img{
     width: 100%;
-    height: auto; /* Ajustar altura dinamicamente */
+    height: 100%;
 }
-
-.containerDescBack {
+.containerDescBack{
     width: 100%;
-    height: auto; /* Ajustar altura dinamicamente */
+    height: 75%;
+
     padding-top: 2rem;
-}
 
-.iconProjeto {
-    width: 100%;
-    height: auto; /* Ajustar altura dinamicamente */
+}
+.iconProjeto{
+    width: 95%;
+    height: 15%;
+
     display: flex;
     justify-content: center;
     align-items: center;
+
     padding-left: 15px;
 }
-
-.nameProjeto > h1, h3 {
-    margin-left: 0; /* Ajuste para telas menores */
-    text-align: center; /* Centralizar o texto */
+.nameProjeto > h1, h3{
+    margin-left: 10px;
+}
+.containerCards{
+    display: flex;
+    justify-content: center;
+    
+}
+.containerCards > .aaa, .containerCard1, .containerCard2,
+.containerCard3, .containerCard4{
+    margin-top: 2rem;
 }
 
-/* Media Queries */
-@media (max-width: 1492px) {
-    .containerCardsGeral {
-        height: auto;
-        flex-direction: column;
-        align-items: center;
-    }
 
-    .containerCards > .aaa, .containerCard1, .containerCard2,
-    .containerCard3, .containerCard4, .containerCard5, .containerCard6 {
-        margin-left: 0;
-        margin-top: 1rem;
-        width: calc(50% - 1rem); /* Ajustar para 2 cards por linha */
+@media (max-width: 1492px){
+    .containerCardsGeral{
+        height: 900px;
     }
 }
-
-@media (max-width: 1024px) {
-    .flipCard {
-        width: 250px; /* Reduzir tamanho dos cards em tablets */
-        height: 350px;
-    }
-}
-
-@media (max-width: 750px) {
-    .containerCardsGeral {
-        height: auto;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .containerCards > .aaa, .containerCard1, .containerCard2,
-    .containerCard3, .containerCard4, .containerCard5, .containerCard6 {
-        margin-left: 0;
-        margin-top: 1rem;
-        width: 100%; /* Fazer com que os cards usem a largura disponível */
-    }
-
-    .flipCard {
-        width: 200px;
-        height: 300px;
+@media (max-width: 750px){
+    .containerCardsGeral{
+        height: 1800px;
+        justify-content: center;
     }
 }

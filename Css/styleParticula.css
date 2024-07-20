@@ -50,3 +50,34 @@ canvas{ display: block;
 .count-particles{
     border-radius: 0 0 3px 3px;
 }
+
+
+@media (max-width: 768px) {
+    #particles-js {
+        background-size: cover;
+        background-position: center;
+    }
+
+    .count-particles {
+        font-size: .6em;
+    }
+    
+    .js-count-particles {
+        font-size: .8em;
+    }
+}
+
+@media (max-width: 480px) {
+    #particles-js {
+        background-size: cover;
+        background-position: center;
+    }
+
+    .count-particles {
+        font-size: .5em;
+    }
+    
+    .js-count-particles {
+        font-size: .7em;
+    }
+}

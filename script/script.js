@@ -1,98 +1,98 @@
-// window.addEventListener('DOMContentLoaded', (event) => {
-//     const sr = ScrollReveal({ reset: true }, {mobile: true,});
+window.addEventListener('DOMContentLoaded', (event) => {
+    const sr = ScrollReveal({ reset: true }, {mobile: true,});
 
-//     sr.reveal('#home', { duration: 2000 });
+    sr.reveal('#home', { duration: 2000 });
     
-//     sr.reveal('.containerBox', {
-//         rotate: { x: 0, y: 80, z: 0 },
-//         duration: 3000,
-//         reset: false,
-//         mobile: true,
-//     });
+    sr.reveal('.containerBox', {
+        rotate: { x: 0, y: 80, z: 0 },
+        duration: 3000,
+        reset: false,
+        mobile: true,
+    });
 
-//     sr.reveal('.containerBoxIcons', {
-//         rotate: { x: 100, y: 110, z: 0 },
-//         duration: 1000,
-//         reset: false,
-//         mobile: true,
-//     });
+    sr.reveal('.containerBoxIcons', {
+        rotate: { x: 100, y: 110, z: 0 },
+        duration: 1000,
+        reset: false,
+        mobile: true,
+    });
 
-//     sr.reveal('.meusCursos', {
-//         distance: '3000px',
-//         origin: 'left',
-//         duration: 1000,
-//         delay: 100,
-//         reset: false,
-//         mobile: true,
-//     });
+    sr.reveal('.meusCursos', {
+        distance: '3000px',
+        origin: 'left',
+        duration: 1000,
+        delay: 100,
+        reset: false,
+        mobile: true,
+    });
 
-//     sr.reveal('.containerCard1', {
-//         distance: '3000px',
-//         origin: 'left',
-//         duration: 1000,
-//         delay: 100,
-//         reset: false,
-//         mobile: true,
-//     });
-// sr.reveal('.containerCard2', {
-//     distance: '3000px',
-//     origin: 'left',
-//     duration: 1000,
-//     delay: 300,
-//     reset: false,
-//     mobile: true,
-// });
-// sr.reveal('.containerCard3', {
-//     distance: '3000px',
-//     origin: 'left',
-//     duration: 1000,
-//     delay: 500,
-//     reset: false,
-//     mobile: true,
-// });
-// sr.reveal('.containerCard4', {
-//     distance: '3000px',
-//     origin: 'left',
-//     duration: 1000,
-//     delay: 700,
-//     reset: false,
-//     mobile: true,
-// });
+    sr.reveal('.containerCard1', {
+        distance: '3000px',
+        origin: 'left',
+        duration: 1000,
+        delay: 100,
+        reset: false,
+        mobile: true,
+    });
+sr.reveal('.containerCard2', {
+    distance: '3000px',
+    origin: 'left',
+    duration: 1000,
+    delay: 300,
+    reset: false,
+    mobile: true,
+});
+sr.reveal('.containerCard3', {
+    distance: '3000px',
+    origin: 'left',
+    duration: 1000,
+    delay: 500,
+    reset: false,
+    mobile: true,
+});
+sr.reveal('.containerCard4', {
+    distance: '3000px',
+    origin: 'left',
+    duration: 1000,
+    delay: 700,
+    reset: false,
+    mobile: true,
+});
 
 
-// sr.reveal('.containerCard5', {
-//     distance: '3000px',
-//     origin: 'right',
-//     duration: 1000,
-//     delay: 100,
-//     reset: false,
-//     mobile: true,
-// });
-// sr.reveal('.containerCard6', {
-//     distance: '3000px',
-//     origin: 'right',
-//     duration: 1000,
-//     delay: 300,
-//     reset: false,
-//     mobile: true,
-// });
-// sr.reveal('.containerCard7', {
-//     distance: '3000px',
-//     origin: 'right',
-//     duration: 1000,
-//     delay: 500,
-//     reset: false,
-//     mobile: true,
-// });
-// sr.reveal('.containerCard8', {
-//     distance: '3000px',
-//     origin: 'right',
-//     duration: 1000,
-//     delay: 700,
-//     reset: false,
-//     mobile: true,
-// });
-// });
+sr.reveal('.containerCard5', {
+    distance: '3000px',
+    origin: 'left',
+    duration: 1000,
+    delay: 100,
+    reset: false,
+    mobile: true,
+});
+sr.reveal('.containerCard6', {
+    distance: '3000px',
+    origin: 'left',
+    duration: 1000,
+    delay: 300,
+    reset: false,
+    mobile: true,
+});
+sr.reveal('.containerCard7', {
+    distance: '3000px',
+    origin: 'left',
+    duration: 1000,
+    delay: 500,
+    reset: false,
+    mobile: true,
+});
+sr.reveal('.containerCard8', {
+    distance: '3000px',
+    origin: 'left',
+    duration: 1000,
+    delay: 700,
+    reset: false,
+    mobile: true,
+});
+});
 
 
 

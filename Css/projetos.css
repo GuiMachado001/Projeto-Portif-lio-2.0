@@ -1,4 +1,4 @@
-/* #Projetos{
+#Projetos{
     display: flex;
     justify-content: center;
     margin-top: 30px;
@@ -19,7 +19,7 @@
 .containerCards > .aaa, .containerCard1, .containerCard2,
 .containerCard3, .containerCard4, .containerCard5, .containerCard6{
     margin-top: 2rem;
-    margin-left: 5%;
+    /* margin-left: 5%; */
 
 }
 
@@ -175,4 +175,4 @@
         height: 1800px;
         justify-content: center;
     }
-} */
+}

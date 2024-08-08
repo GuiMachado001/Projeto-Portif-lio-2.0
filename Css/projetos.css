@@ -10,18 +10,6 @@
     flex-direction: column;
     width: 80%;
 }
-.containerCards{
-
-    display: flex;
-    justify-content: center;
-    
-}
-.containerCards > .aaa, .containerCard1, .containerCard2,
-.containerCard3, .containerCard4, .containerCard5, .containerCard6{
-    margin-top: 2rem;
-    margin-left: 5%;
-
-}
 
 .containerCardsGeral{
     width: 100%;
@@ -32,70 +20,6 @@
     flex-wrap: wrap;
 }
 
-.containerCardsGeral2{
-    width: 100%;
-    height: 450px;
-
-    
-    margin-top: 2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-
-.titleConhec{
-    width: 100%;
-    height: 10vh;
-
-}
-.titleConhec > h1{
-    color: white;
-}
-.flipCard{
-    cursor: pointer;
-
-    border-radius: 30px;
-
-    width: 300px;
-    height: 400px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    perspective: 1000px;
-}
-.containerInfo{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-.flipCard:hover .flipCardInner{
-    transform: rotateY(-180deg);
-}
-
-.flipCard .flipCardBack{
-    transform: rotateY(-180deg);
-}
-.flipCardInner{
-    border-radius: 50px;
-
-    width: 300px;
-    height: 400px;
-
-    background-color: black;
-    border: 2px solid white;
-
-    perspective: 1000px;
-
-    position: relative;
-    transition: transform 1s;
-    transform-style: preserve-3d;
-}
 .flipCardBack, .flipCardFront{
     position: absolute;
     backface-visibility: hidden;
@@ -103,64 +27,7 @@
     height: 100%;
     color: white;
 }
-.flipCardImg{
-    width: 100%;
-    height: 100%;
 
-    object-fit: cover;
-    border-radius: 30px;
-}
-.nameProjeto{
-    width: 250px;
-    height: 150px;
-    margin-top: 2rem;
-
-    /* border: 2px solid white; */
-    border-radius: 20px;
-
-    padding: 001px;
-
-    color: #fff;
-}
-.containerImgProjeto{
-    margin-top: 2rem;
-    width: 250px;
-    height: 160px;
-}
-.containerImgProjeto img{
-    border-radius: 5px;
-    width: 100%;
-    height: 100%;
-}
-.containerDescBack{
-    width: 100%;
-    height: 75%;
-
-    padding-top: 2rem;
-
-}
-.iconProjeto{
-    width: 95%;
-    height: 15%;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    padding-left: 15px;
-}
-.nameProjeto > h1, h3{
-    margin-left: 10px;
-}
-.containerCards{
-    display: flex;
-    justify-content: center;
-    
-}
-.containerCards > .aaa, .containerCard1, .containerCard2,
-.containerCard3, .containerCard4, .containerCard5, .containerCard6{
-    margin-top: 2rem;
-}
 
 
 @media (max-width: 1492px){

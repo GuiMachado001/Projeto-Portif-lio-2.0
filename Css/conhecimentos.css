@@ -17,6 +17,7 @@
 }
 
 .titleConhec > h1{
+    width: 100%;
     color: white;
 }
 
@@ -67,7 +68,6 @@
     margin-left: 15px;
     
     color: white;
-    line-height: 10px;
     
     display: flex;
     flex-direction: column;
@@ -78,15 +78,17 @@
     
     align-items: center;
     width: 100%;
-    
-    
+}
+.curso > h1{
+    line-height: 1.0;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    max-width: 100%;
 }
 .instituição{
-    
     display: flex;
 }
 .containerInst{
-    
     width: 400px;
 }
 .iconImg{
@@ -110,11 +112,12 @@
     }
 
     .curso {
-        line-height: 0;
+        /* line-height: 0; */
     }
 
     .meusCursos {
         display: block;
-        height: 150px;
+        width: 100%;
+        height: 180px;
     }
 }

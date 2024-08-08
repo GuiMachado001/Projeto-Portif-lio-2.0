@@ -26,7 +26,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
         mobile: true,
     });
 
-    sr.reveal('.containerCard1', {
+    sr.reveal('.transition1', {
         distance: '3000px',
         origin: 'left',
         duration: 1000,
@@ -34,7 +34,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
         reset: false,
         mobile: true,
     });
-sr.reveal('.containerCard2', {
+sr.reveal('.transition2', {
     distance: '3000px',
     origin: 'left',
     duration: 1000,
@@ -42,7 +42,7 @@ sr.reveal('.containerCard2', {
     reset: false,
     mobile: true,
 });
-sr.reveal('.containerCard3', {
+sr.reveal('.transition3', {
     distance: '3000px',
     origin: 'left',
     duration: 1000,
@@ -50,17 +50,8 @@ sr.reveal('.containerCard3', {
     reset: false,
     mobile: true,
 });
-sr.reveal('.containerCard4', {
-    distance: '3000px',
-    origin: 'left',
-    duration: 1000,
-    delay: 700,
-    reset: false,
-    mobile: true,
-});
 
-
-sr.reveal('.containerCard5', {
+sr.reveal('.transition4', {
     distance: '3000px',
     origin: 'left',
     duration: 1000,
@@ -68,7 +59,7 @@ sr.reveal('.containerCard5', {
     reset: false,
     mobile: true,
 });
-sr.reveal('.containerCard6', {
+sr.reveal('.transition5', {
     distance: '3000px',
     origin: 'left',
     duration: 1000,
@@ -76,7 +67,7 @@ sr.reveal('.containerCard6', {
     reset: false,
     mobile: true,
 });
-sr.reveal('.containerCard7', {
+sr.reveal('.transition6', {
     distance: '3000px',
     origin: 'left',
     duration: 1000,
@@ -84,14 +75,7 @@ sr.reveal('.containerCard7', {
     reset: false,
     mobile: true,
 });
-sr.reveal('.containerCard8', {
-    distance: '3000px',
-    origin: 'left',
-    duration: 1000,
-    delay: 700,
-    reset: false,
-    mobile: true,
-});
+
 });
 
 

@@ -216,14 +216,14 @@
 @media (max-width: 750px) {
     .containerBoxIcons {
         width: 100%;
-        height: 100px;
+        height: 120px;
     }
 }
 
 @media (max-width: 680px) {
     .containerBoxIcons {
         width: 100%;
-        height: 200px;
+        height: 220px;
     }
 
     #sobreMim {
@@ -240,7 +240,7 @@
 @media (max-width: 250px) {
     .containerBoxIcons {
         width: 100%;
-        height: 500px;
+        height: 520px;
     }
 
     .containerBox {
@@ -250,6 +250,6 @@
 
     .containerBoxIcons {
         width: 100%;
-        height: 250px;
+        height: 750px;
     }
 }

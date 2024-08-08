@@ -121,7 +121,7 @@
 
     .containerBox {
         width: 100%;
-        height: 90%;
+        height: 80%;
     }
 
     .confImg {
@@ -141,8 +141,10 @@
   
 
 @media (max-width: 650px) {
-    #sobreMim {
+    #sobreMim{
+        width: 100%;
         height: 250vh;
+    
     }
 
     .containerAvatar2 {
@@ -156,7 +158,7 @@
 
     .containerBox {
         width: 100%;
-        height: 90%;
+        height: 80%;
     }
 
     .confImg {
@@ -166,7 +168,6 @@
 
     .containerDescSobre {
         width: 100%;
-        height: 100vh;
         margin-left: 0;
     }
 
@@ -216,12 +217,15 @@
 @media (max-width: 750px) {
     .containerBoxIcons {
         width: 100%;
-        height: 120px;
+        height: 250px;
     }
     
 }
-
+/* 
 @media (max-width: 680px) {
+    #sobreMim {
+        height: 400vh;
+    }
     .containerBoxIcons {
         width: 100%;
         height: 220px;
@@ -234,14 +238,18 @@
 
     .containerBox {
         width: 100%;
-        height: 90%;
+        height: 100%;
     }
     .containerDescSobre{
         height: 100vh
     }
-}
+} */
 
 @media (max-width: 250px) {
+    #sobreMim{
+        height: 500vh;
+    
+    }
     .containerBoxIcons {
         width: 100%;
         height: 520px;
@@ -249,7 +257,7 @@
 
     .containerBox {
         width: 100%;
-        height: 100%;
+        height: 850px;
     }
 
     .containerDescSobre{

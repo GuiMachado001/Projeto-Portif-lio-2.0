@@ -40,7 +40,7 @@
 }
 
 .containerImgAvatar1{
-  /* display: none; */
+  display: none;
 }
 
 
@@ -231,7 +231,7 @@ to{
   }
 
   .containerImgAvatar1 {
-      /* display: flex; */
+      display: flow-root;
       flex-direction: column;
       width: 400px;
       height: 400px;

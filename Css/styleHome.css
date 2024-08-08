@@ -267,7 +267,7 @@ to{
 }
 
 @media (max-width: 423px) {
-    .containerImgAvatar1 {
+    /* .containerImgAvatar1 {
         width: 300px;
         height: 300px;
     }
@@ -275,7 +275,28 @@ to{
       width: 100%;
       margin-top: 20px;
       /* border: 1px solid red; */
-    } 
+    /* }  */
+    #home {
+      height: 80vh;
+  }
+    .circle {
+      height: 25rem;
+      width: 25rem;
+  }
+  .circle a {
+      width: 3rem;
+      height: 3rem;
+      font-size: 12px;
+  }
+  .dev-img-wrapper {
+      width: 200px;
+      height: 200px;
+  }
+  .dev-works {
+      width: 10rem;
+      height: 4rem;
+  }
+
 }
 
 

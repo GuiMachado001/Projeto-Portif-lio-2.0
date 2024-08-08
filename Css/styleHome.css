@@ -30,8 +30,10 @@
 }
 .descTituloBody{
   width: 65%;
-  height: 160px;
-
+  height: 33rem;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
 }
 
 

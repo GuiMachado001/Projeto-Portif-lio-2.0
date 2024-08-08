@@ -80,14 +80,6 @@ sr.reveal('.transition6', {
 
 
 
-
-
-
-
-
-
-
-
 const initTypingAnimation = () => {
     const titleApresentacao = document.querySelector('.titleApresentacao h1')
     const span = document.querySelector('.titleApresentacao span')

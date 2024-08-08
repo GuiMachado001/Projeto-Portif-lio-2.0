@@ -31,6 +31,7 @@
 .descTituloBody{
   width: 65%;
   height: 160px;
+
 }
 
 
@@ -50,7 +51,6 @@
     align-items: center;
     justify-content: center;
   }
-  
   .circle {
     height: 33rem;
     width: 33rem;
@@ -92,8 +92,6 @@ to{
   .circle img{
     width: 90%;
   }
-  
-
   .circle a:hover {
     background: #1d222a;
     color: #fff;
@@ -114,7 +112,6 @@ to{
     left: calc(50% - 2rem);
     bottom: -2rem;
   }
-  
   .developer-img {
     position: absolute;
   }
@@ -199,6 +196,8 @@ to{
   left: -1.1rem;
   bottom: -2rem;
 }
+
+
 @media (max-width: 700px) {
   #home {
       height: 100vh;
@@ -224,13 +223,13 @@ to{
       display: flex;
       align-items: center;
       justify-content: center;
-  }
+}
 
-  .containerAvatar {
+  /* .containerAvatar {
       display: none;
-  }
+  } */
 
-  .containerImgAvatar1 {
+  /* .containerImgAvatar1 {
       display: flow-root;
       flex-direction: column;
       width: 400px;
@@ -244,7 +243,9 @@ to{
     width: 100%;
     margin-top: 20px;
     /* border: 1px solid red; */
-  } 
+  }  */
+
+
 }
 
   @media (max-width: 483px) {
@@ -257,6 +258,23 @@ to{
       margin-top: 20px;
       /* border: 1px solid red; */
     } 
+    .circle {
+      height: 10rem;
+      width: 10rem;
+  }
+  .circle a {
+      width: 1rem;
+      height: 1rem;
+      font-size: 12px;
+  }
+  .dev-img-wrapper {
+      width: 100px;
+      height: 100px;
+  }
+  .dev-works {
+      width: 10rem;
+      height: 4rem;
+  }
 }
 
 @media (max-width: 423px) {

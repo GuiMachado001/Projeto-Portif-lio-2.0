@@ -100,7 +100,7 @@ const initTypingAnimation = () => {
 
             // Itera sobre o array de caracteres e exibe-os com um atraso
             textToArray.forEach((item, index) => {
-                setTimeout(() => element.innerHTML += item, 75 * index)
+                setTimeout(() => element.innerHTML += item, 80 * index)
             })
         }, delay)
     }

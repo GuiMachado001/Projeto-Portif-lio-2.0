@@ -160,7 +160,7 @@
     }
 
     .confImg {
-        width: 300px;
+        width: 150px;
         border-radius: 10%;
     }
 
@@ -236,7 +236,7 @@
         height: 80%;
     }
     .containerDescSobre{
-        height: 130vh;
+        height: 180vh;
     }
 }
 
@@ -256,6 +256,6 @@
         height: 750px;
     }
     .containerDescSobre{
-        height: 170vh;
+        height: 180vh;
     }
 }

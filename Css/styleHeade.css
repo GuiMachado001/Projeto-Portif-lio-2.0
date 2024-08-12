@@ -26,7 +26,7 @@ html{
     justify-content: space-between;
     
     color: #fff;
-    font-size: 15px;
+    /* font-size: 15px; */
 }
 
 .tools{
@@ -47,7 +47,7 @@ html{
     height: 3px;
     background-color: #9849ff;
     position: absolute;
-    top: 15px;
+    top: 20px;
     bottom: 0;
     left: 0;
     transition: 0.6s ease-in-out;
@@ -61,15 +61,23 @@ html{
 .tool{
     cursor: pointer;
     position: relative;
-    font-size: 14px;
+    font-size: 17px;
     color: #fff;
     text-decoration: none;
 }
 
 .titleSite {
-    font-size: 15px;
-    color: #fff;
+    font-size: 25px;
+    font-style: ;
+    font-family: Impact, fantasy;
+
+    background: linear-gradient(54deg, rgba(77,39,128,1) 5%, rgba(152,73,255,1) 78%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-: 0 0 10px #9849ff;
+
 }
+
 .toolBarMedia{
     display: none;
 }

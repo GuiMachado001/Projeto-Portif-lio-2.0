@@ -68,7 +68,7 @@ html{
 
 .titleSite {
     font-size: 25px;
-    font-style: ;
+    /* font-style: ; */
     font-family: Impact, fantasy;
 
     background: linear-gradient(54deg, rgba(77,39,128,1) 5%, rgba(152,73,255,1) 78%);

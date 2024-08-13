@@ -107,7 +107,7 @@
 @media (max-width: 1000px) {
     #sobreMim{
         width: 100%;
-        height: 130vh;
+        height: 180vh;
     
     }
 
@@ -202,12 +202,12 @@
 @media (max-width: 450px) {
     #sobreMim{
         width: 100%;
-        height: 160vh;
+        height: 170vh;
     
     }
     .containerBox {
         width: 100%;
-        height: 1300px;
+        height: 1400px;
         flex-direction: row;
     }
 

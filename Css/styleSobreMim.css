@@ -201,15 +201,15 @@
     }
 } */
 
-@media (max-width: 600px) {
+@media (max-width: 572px) {
     #sobreMim{
         width: 100%;
-        height: 250vh;
+        height: 300vh;
     
     }
     .containerBox {
         width: 100%;
-        height: 1100px;
+        height: 1200px;
         flex-direction: row;
     }
 
@@ -220,15 +220,15 @@
     }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 472px) {
     #sobreMim{
         width: 100%;
-        height: 250vh;
+        height: 340vh;
     
     }
     .containerBox {
         width: 100%;
-        height: 1100px;
+        height: 1500px;
         flex-direction: row;
     }
 
@@ -242,12 +242,12 @@
 @media (max-width: 390px) {
     #sobreMim{
         width: 100%;
-        height: 300vh;
+        height: 350vh;
     
     }
     .containerBox {
         width: 100%;
-        height: 1350px;
+        height: 1600px;
         flex-direction: row;
     }
 

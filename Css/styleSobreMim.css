@@ -106,7 +106,7 @@
 
 @media (max-width: 1000px) {
     #sobreMim{
-        width: 100;
+        width: 100%;
         height: 130vh;
     
     }
@@ -199,22 +199,21 @@
     }
 } */
 
-@media (max-width: 250px) {
+@media (max-width: 450px) {
     #sobreMim{
-        height: 500vh;
+        width: 100%;
+        height: 160vh;
     
     }
-    .containerBoxIcons {
-        width: 100%;
-        height: 520px;
-    }
-
     .containerBox {
         width: 100%;
-        height: 850px;
+        height: 1300px;
+        flex-direction: row;
     }
 
-    .containerDescSobre{
-        height: 150vh;
+    .containerBoxIcons{
+        width: 100%;
+        height: 250px;
+        margin-top: 30px;
     }
 }

@@ -218,6 +218,8 @@ to{
       align-items: center;
       flex-direction: column;
       width: 100%;
+      border:1px solid red;
+      margin-top: 60px;
   }
 
   .descTituloBody {
@@ -282,8 +284,8 @@ to{
       height: 80vh;
   }
     .circle {
-      height: 25rem;
-      width: 25rem;
+      height: 20rem;
+      width: 20rem;
   }
   .circle a {
       width: 3rem;
@@ -291,13 +293,27 @@ to{
       font-size: 12px;
   }
   .dev-img-wrapper {
-      width: 200px;
-      height: 200px;
+      width: 130px;
+      height: 150px;
   }
   .dev-works {
       width: 10rem;
       height: 4rem;
   }
+
+  .titleApresentacao h1{
+    font-size: 20px;
+    color: white;
+}
+.titleApresentacao span{
+    font-size: 25px;
+    color: #9849ff;
+    text-shadow: 0 0 10px #9849ff;
+}
+.titleApresentacao p{
+    font-size: 20px;
+    color: white;
+}
 
 }
 

@@ -19,8 +19,10 @@
 .containerBox{
     display: flex;
     align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
     width: 90%;
-    height: 70%;
+    /* height: 50%; */
     background-color: #151515;
     border: 1px solid #fff;
     flex-wrap: wrap;
@@ -65,74 +67,35 @@
     display: flex;
     /* justify-content: end; */
     align-items: center;
-    flex-direction: column;
-    color: #fff;
+    /* flex-direction: column; */
+    color: #ffffff99;
 
-}
-
-.Name{
-    width: 100%;
-    height: 20%;
-
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+    font-size: 20px;
+    font-family: Archivo;
 
 }
 .Desc{
     width: 100%;
     height: 90%;
-    margin-top: 30px;
+    /* margin-top: 30px; */
+    border:1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-
-.QS{
-    font-size: 20px;
-    color: #9849ff;
-    text-shadow: 0 0 10px #9849ff;
-}
-.nameDesc{
-    margin-top: 5px;
-    font-size: 25px;
-    color: #fff;
-}
-.work{
-    margin-top: 5px;
-    font-size: 20px;
-    color: #fff;
-}
-.spnDesc{
-    margin-top: 20px;
-    font-size: 1.5rem;
-    font-family: Archivo;
-    color: #ffffffa8;
-}
 
 
 @media (max-width: 1300px) {
     #sobreMim {
-        height: 200vh;
+        height: 100vh;
+        border:1px solid red;
     }
-
-    .containerAvatar2 {
-        width: 150px;
-        height: 200px;
-        border-radius: 10%;
-    }
-
     .containerBox {
         width: 100%;
-        height: 80%;
+        height: 600px;
+        flex-direction: column;
     }
-
-    .confImg {
-        height: 200px;
-    }
-
-    .containerDescSobre {
-        width: 70%;
-    }
-
     .containerPg2 {
         display: flex;
         align-items: center;
@@ -141,44 +104,34 @@
 }
   
 
-@media (max-width: 650px) {
+@media (max-width: 1000px) {
     #sobreMim{
-        width: 100%;
-        /* height: 250vh; */
+        width: 100;
+        height: 130vh;
     
-    }
-
-    .containerAvatar2 {
-        width: 100%;
-        height: 200px;
-        border: 0px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
 
     .containerBox {
         width: 100%;
-        height: 80%;
+        height: 1000px;
+        flex-direction: row;
     }
 
-    .confImg {
+    /* .confImg {
         width: 150px;
         border-radius: 10%;
-    }
+    } */
 
     .containerDescSobre {
         width: 100%;
         margin-left: 0;
+        height: 600px;
     }
 
     .containerPg2 {
         display: block;
     }
 
-    .Name {
-        height: 120px;
-    }
 }
 
 
@@ -216,10 +169,10 @@
 
 
 @media (max-width: 750px) {
-    .containerBoxIcons {
+    /* .containerBoxIcons {
         width: 100%;
         height: 250px;
-    }
+    } */
     
 }
 /* 

@@ -180,6 +180,8 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    border: 1px solid #9849ff75;
+    border-radius: 50px;
 }
 
 .flipCardImg{
@@ -194,8 +196,7 @@
     height: 150px;
     margin-top: 2rem;
 
-    /* border: 2px solid white; */
-    border-radius: 20px;
+    border-radius: 10px;
 
     padding: 001px;
 

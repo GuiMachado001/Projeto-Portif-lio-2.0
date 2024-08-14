@@ -19,22 +19,21 @@
 .containerBox{
     display: flex;
     align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
     width: 90%;
-    height: 70%;
+    /* height: 50%; */
     background-color: #151515;
     border: 1px solid #fff;
     flex-wrap: wrap;
 }
-.containerBoxIcons{
-    width: 80%;
-    height: 100px;
+.containerBoxIconsGeral{
+    width: 100%;
+    /* height: 200px; */
     margin-top: 30px;
     display: flex;
     justify-content: center;
-    align-items: center;
     gap: 80px;
-    background-color: #151515;
-    border: 2px solid #fff;
     flex-wrap: wrap;
 }
 .containerAvatar2{
@@ -65,149 +64,81 @@
     display: flex;
     /* justify-content: end; */
     align-items: center;
-    flex-direction: column;
-    color: #fff;
+    /* flex-direction: column; */
+    color: #ffffff99;
 
-}
-
-.Name{
-    width: 100%;
-    height: 20%;
-
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+    font-size: 20px;
+    font-family: Archivo;
 
 }
 .Desc{
     width: 100%;
     height: 90%;
-    margin-top: 30px;
+    /* margin-top: 30px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-
-
-.QS{
-    font-size: 20px;
-    color: #9849ff;
-    text-shadow: 0 0 10px #9849ff;
-}
-.nameDesc{
-    margin-top: 5px;
-    font-size: 25px;
-    color: #fff;
-}
-.work{
-    margin-top: 5px;
-    font-size: 20px;
-    color: #fff;
-}
-.spnDesc{
-    margin-top: 20px;
-    font-size: 1.5rem;
-    font-family: Archivo;
-    color: #ffffffa8;
+.icon{
+    width: 40px;
+    box-shadow: 0 0 10px #9849ff;
 }
 
 
 @media (max-width: 1300px) {
     #sobreMim {
-        height: 200vh;
+        height: 100vh;
     }
-
-    .containerAvatar2 {
-        width: 150px;
-        height: 200px;
-        border-radius: 10%;
-    }
-
     .containerBox {
         width: 100%;
-        height: 80%;
+        height: 600px;
+        flex-direction: column;
     }
-
-    .confImg {
-        height: 200px;
-    }
-
-    .containerDescSobre {
-        width: 70%;
-    }
-
     .containerPg2 {
         display: flex;
         align-items: center;
         justify-content: center;
     }
+    .containerBoxIconsGeral{
+        width: 100%;
+        height: 100px;
+        margin-top: 30px;
+    }
 }
   
 
-@media (max-width: 650px) {
+@media (max-width: 1000px) {
     #sobreMim{
         width: 100%;
-        /* height: 250vh; */
-    
-    }
-
-    .containerAvatar2 {
-        width: 100%;
-        height: 200px;
-        border: 0px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        height: 200vh;
     }
 
     .containerBox {
         width: 100%;
-        height: 80%;
+        height: 1000px;
+        flex-direction: row;
     }
 
-    .confImg {
+    /* .confImg {
         width: 150px;
         border-radius: 10%;
-    }
+    } */
 
     .containerDescSobre {
         width: 100%;
         margin-left: 0;
+        height: 600px;
     }
 
     .containerPg2 {
         display: block;
     }
 
-    .Name {
-        height: 120px;
-    }
 }
 
 
 
-.boxIcon{
-    width: 60px;
-    height: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #00000093;
-    border-radius: 20px;
-    transition: 1s;
-    cursor: pointer;
-    border: 2px solid #fff;
-    flex-wrap: wrap;
-}
-.icon{
-    width: 40px;
-    transition: 1s;
-    box-shadow: 0 0 10px #9849ff;
-} 
 
-.boxIcon:hover{
-    width: 65px;
-    height: 65px;
-    border: 2px solid #9849ff;
-    box-shadow: 0px 0px 10px 1px white;
-}
 
 .whatsapp, .github{
     border-radius: 50%;
@@ -216,10 +147,10 @@
 
 
 @media (max-width: 750px) {
-    .containerBoxIcons {
+    /* .containerBoxIcons {
         width: 100%;
         height: 250px;
-    }
+    } */
     
 }
 /* 
@@ -246,22 +177,147 @@
     }
 } */
 
-@media (max-width: 250px) {
+@media (max-width: 572px) {
     #sobreMim{
-        height: 500vh;
+        width: 100%;
+        height: 300vh;
     
     }
-    .containerBoxIcons {
-        width: 100%;
-        height: 520px;
-    }
-
     .containerBox {
         width: 100%;
-        height: 850px;
+        height: 1200px;
+        flex-direction: row;
     }
 
-    .containerDescSobre{
-        height: 150vh;
+    .containerBoxIconsGeral{
+        width: 100%;
+        height: 250px;
+        margin-top: 30px;
     }
 }
+
+@media (max-width: 472px) {
+    #sobreMim{
+        width: 100%;
+        height: 340vh;
+    
+    }
+    .containerBox {
+        width: 100%;
+        height: 1500px;
+        flex-direction: row;
+    }
+
+    .containerBoxIconsGeral{
+        width: 100%;
+        height: 250px;
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 390px) {
+    #sobreMim{
+        width: 100%;
+        height: 350vh;
+    
+    }
+    .containerBox {
+        width: 100%;
+        height: 1600px;
+        flex-direction: row;
+    }
+
+    .containerBoxIconsGeral{
+        width: 100%;
+        height: 250px;
+        margin-top: 30px;
+    }
+    .confImg{
+        width: 200px;
+        height: 270px;
+    }
+}
+
+
+
+.light-button button.bt {
+    position: relative;
+    height: 200px;
+    display: flex;
+    align-items: flex-end;
+    outline: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+  
+  .light-button button.bt .button-holder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+    background-color: #0a0a0a;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    transition: 300ms;
+    outline: #0f0f0f 2px solid;
+    outline-offset: 20;
+  }
+  
+  .light-button button.bt .button-holder svg {
+    height: 50px;
+    fill: #0f0f0f;
+    transition: 300ms;
+  }
+  
+  .light-button button.bt .light-holder {
+    position: absolute;
+    height: 200px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .light-button button.bt .light-holder .dot {
+    position: absolute;
+    top: 0;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 10px;
+    z-index: 2;
+  }
+  
+  .light-button button.bt .light-holder .light {
+    position: absolute;
+    top: 0;
+    width: 200px;
+    height: 200px;
+    clip-path: polygon(50% 0%, 25% 100%, 75% 100%);
+    background: transparent;
+  }
+  
+  .light-button button.bt:hover .button-holder svg {
+    fill: #9849ff;
+  }
+  
+  .light-button button.bt:hover .button-holder {
+    color: #9849ff;
+    outline: #9849ff 2px solid;
+    outline-offset: 2px;
+  }
+  
+  .light-button button.bt:hover .light-holder .light {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+      180deg,
+      #9849ff 0%,
+      rgba(255, 255, 255, 0) 75%,
+      rgba(255, 255, 255, 0) 100%
+    );
+  }
+  

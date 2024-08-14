@@ -90,13 +90,16 @@ to{
     position: absolute;
     transition: 0.4s ease;
     animation: colorAnim linear infinite 20s;
+
   }
   .circle img{
     width: 90%;
+    
   }
   .circle a:hover {
     background: #1d222a;
     color: #fff;
+    
   }
   .circle a:nth-child(1) {
     left: calc(50% - 2rem);
@@ -116,7 +119,11 @@ to{
   }
   .developer-img {
     position: absolute;
+    perspective: 800px;
+
+
   }
+  
   .dev-img-wrapper {
     width: 300px;
     height: 300px;
@@ -127,6 +134,7 @@ to{
     box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.3);
     overflow: hidden;
   }
+
   .dev-img-wrapper img {
     height: 100%;
   }
@@ -163,8 +171,6 @@ to{
     color: #9849ff;
     width: 50%; 
   }
-  
-  
   
   .section-border {
     width: 0.3rem;
@@ -218,6 +224,7 @@ to{
       align-items: center;
       flex-direction: column;
       width: 100%;
+      margin-top: 60px;
   }
 
   .descTituloBody {
@@ -282,8 +289,8 @@ to{
       height: 80vh;
   }
     .circle {
-      height: 25rem;
-      width: 25rem;
+      height: 20rem;
+      width: 20rem;
   }
   .circle a {
       width: 3rem;
@@ -291,13 +298,27 @@ to{
       font-size: 12px;
   }
   .dev-img-wrapper {
-      width: 200px;
-      height: 200px;
+      width: 130px;
+      height: 150px;
   }
   .dev-works {
       width: 10rem;
       height: 4rem;
   }
+
+  .titleApresentacao h1{
+    font-size: 20px;
+    color: white;
+}
+.titleApresentacao span{
+    font-size: 25px;
+    color: #9849ff;
+    text-shadow: 0 0 10px #9849ff;
+}
+.titleApresentacao p{
+    font-size: 20px;
+    color: white;
+}
 
 }
 

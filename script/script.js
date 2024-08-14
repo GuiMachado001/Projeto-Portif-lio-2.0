@@ -10,7 +10,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
         mobile: true,
     });
 
-    sr.reveal('.containerBoxIcons', {
+    sr.reveal('.containerBoxIconsGeral', {
         rotate: { x: 100, y: 110, z: 0 },
         duration: 1000,
         reset: false,
@@ -87,17 +87,15 @@ const initTypingAnimation = () => {
 
     const typingAnimation = (element, text, delay) => {
         setTimeout(() => {
-            element.innerHTML = '' // Limpa o conteúdo atual
-            const textToArray = text.split('') // Converte o texto em um array de caracteres
+            element.innerHTML = '' 
+            const textToArray = text.split('') 
 
-            // Itera sobre o array de caracteres e exibe-os com um atraso
             textToArray.forEach((item, index) => {
                 setTimeout(() => element.innerHTML += item, 80 * index)
             })
         }, delay)
     }
 
-    // Inicia a animação para cada elemento com seu respectivo texto e atraso
     typingAnimation(titleApresentacao, 'Olá, eu sou o ', 0)
     typingAnimation(span, 'Guilherme Machado', 1600)
     typingAnimation(paragraph, 'Desenvolvedor Front-End', 3700)
